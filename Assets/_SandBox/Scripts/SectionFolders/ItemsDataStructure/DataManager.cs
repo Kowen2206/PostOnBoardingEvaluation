@@ -8,6 +8,10 @@ namespace DataStore
 {
     public class DataManager : MonoBehaviour
     {
+
+        public static DataManager Instance => _instance ?? (_instance = new DataManager());
+        private static DataManager _instance;
+
         private readonly IDataStore dataStore;
 
         public DataManager()
