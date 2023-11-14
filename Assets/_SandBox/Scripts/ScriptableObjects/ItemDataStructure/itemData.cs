@@ -8,14 +8,23 @@ using UnityEngine;
 namespace DataStructure
 {
     [CreateAssetMenu(fileName ="itemData", menuName = "Items")]
-    public class itemData : ScriptableObject
+    public class ItemData : ScriptableObject
     {
         [SerializeField] private string _itemName;
         [SerializeField] private int _requiredLevel;
-        [SerializeField] private ItemTypes type;
-        [SerializeField] private ItemTypes weakAgainst;
-        [SerializeField] private ItemTypes strongAgainst;
-        [SerializeField] private GameObject ItemPrefab;
+        [SerializeField] private ItemTypes _type;
+        [SerializeField] private ItemTypes _weakAgainst;
+        [SerializeField] private ItemTypes _strongAgainst;
+        [SerializeField] private GameObject _itemPrefab;
+        [SerializeField] private Sprite _sprite;
+
+        public string ItemName => _itemName; 
+        public int RequiredLevel => _requiredLevel; 
+        public ItemTypes Type => _type; 
+        public ItemTypes WeakAgainst => _weakAgainst;
+        public ItemTypes StrongAgainst => _strongAgainst; 
+        public GameObject ItemPrefab => _itemPrefab;
+        public Sprite Sprite => _sprite;
     }
 
 }

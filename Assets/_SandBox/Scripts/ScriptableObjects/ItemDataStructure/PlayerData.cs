@@ -9,9 +9,13 @@ namespace DataStructure
     public class PlayerData : ScriptableObject
     {
         //La variable playerItems se usa para guardar la ultima selección de items del usuario, la primeravez el valor es null
-        private List<ItemTypes> playerItems = null;
-        private int playerLvl = 1;
+        [SerializeField] private List<ItemData> playerItems = null;
+        [SerializeField] private int playerLvl = 1;
+        public readonly string Player_key = "Player";
 
+        public List<ItemData> PlayerItems => playerItems;
+
+        public int PlayerLvl => playerLvl; 
     }
 }
 

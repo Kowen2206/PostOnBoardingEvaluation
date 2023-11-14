@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _itemName: Charmander
   _requiredLevel: 1
-  type: 1
-  weakAgainst: 0
-  strongAgainst: 4
-  ItemPrefab: {fileID: 0}
+  _type: 1
+  _weakAgainst: 0
+  _strongAgainst: 4
+  _itemPrefab: {fileID: 0}
+  _sprite: {fileID: 21300000, guid: 4b883b2214c3a3b42ac6bd57df599625, type: 3}
