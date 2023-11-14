@@ -8,6 +8,7 @@ using UnityEngine;
 namespace DataStructure
 {
     [CreateAssetMenu(fileName ="itemData", menuName = "Items")]
+    
     public class ItemData : ScriptableObject
     {
         [SerializeField] private string _itemName;

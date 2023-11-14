@@ -25,6 +25,7 @@ namespace DataStore
             if(instance == null)
             {
                 instance = this;
+                DontDestroyOnLoad(gameObject);
                 InitializeData();
             }
             else
