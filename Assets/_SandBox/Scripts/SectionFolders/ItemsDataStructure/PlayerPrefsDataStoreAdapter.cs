@@ -16,8 +16,10 @@ namespace DataStore.Adapters
         public T GetData<T>(string key)
         {
             var json = PlayerPrefs.GetString(key);
+            Debug.Log(key);
             return JsonUtility.FromJson<T>(json);
         }
+
     }
 }
     

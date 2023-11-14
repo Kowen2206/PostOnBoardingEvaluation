@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _itemName: Bulbasaur
   _requiredLevel: 1
-  type: 4
-  weakAgainst: 4
-  strongAgainst: 0
-  ItemPrefab: {fileID: 0}
+  _type: 4
+  _weakAgainst: 1
+  _strongAgainst: 3
+  _itemPrefab: {fileID: 0}
+  _sprite: {fileID: 21300000, guid: 3541a64046fd9094e8504cfc4af23763, type: 3}

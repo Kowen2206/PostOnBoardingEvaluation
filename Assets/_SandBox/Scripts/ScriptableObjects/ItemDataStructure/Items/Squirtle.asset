@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _itemName: Squirtle
   _requiredLevel: 1
-  type: 0
-  weakAgainst: 3
-  strongAgainst: 2
-  ItemPrefab: {fileID: 0}
+  _type: 0
+  _weakAgainst: 0
+  _strongAgainst: 0
+  _itemPrefab: {fileID: 0}
+  _sprite: {fileID: 21300000, guid: 52eaa1485d4dae541b5fe94f15f23366, type: 3}

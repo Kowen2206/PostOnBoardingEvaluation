@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13f81a4cd9899c8418613a76c8eeef71, type: 3}
   m_Name: Pikachu
   m_EditorClassIdentifier: 
-  _itemName: Pikachu
-  _requiredLevel: 2
-  type: 3
-  weakAgainst: 2
-  strongAgainst: 0
-  ItemPrefab: {fileID: 0}
+  _itemName: Pickachu
+  _requiredLevel: 1
+  _type: 0
+  _weakAgainst: 0
+  _strongAgainst: 0
+  _itemPrefab: {fileID: 0}
+  _sprite: {fileID: 21300000, guid: 598b152053851414eb37d87edb570dfb, type: 3}
