@@ -35,8 +35,4 @@ public class ItemPrefab : MonoBehaviour
         _addButton.onClick.RemoveAllListeners();
     }
 
-    public void LoadModel(Transform parent)
-    {
-       // Instantiate(Data.Model, parent);
-    }
 }
